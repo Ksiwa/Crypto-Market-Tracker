@@ -1,8 +1,10 @@
-# KriptoTakip
+# Crypto Market Tracker
+
+[![CI](https://github.com/Ksiwa/Crypto-Market-Tracker/actions/workflows/ci.yml/badge.svg)](https://github.com/Ksiwa/Crypto-Market-Tracker/actions/workflows/ci.yml)
 
 React Native ve Expo ile geliştirilmiş, CoinGecko API üzerinden kripto para piyasa verilerini listeleyen ve detaylandıran mobil takip uygulaması.
 
-Bu proje, React Native Mobile Developer staj başvurusu için Clean Architecture, TypeScript tip güvenliği, API entegrasyonu, performanslı listeleme ve teknik dokümantasyon pratiklerini göstermek amacıyla hazırlandı.
+Bu proje; Clean Architecture, TypeScript tip güvenliği, API entegrasyonu, performanslı listeleme ve teknik dokümantasyon pratiklerini göstermek amacıyla hazırlanmış bir mobil geliştirme portfolyo çalışmasıdır.
 
 ## Öne Çıkanlar
 
@@ -81,6 +83,5 @@ https://api.coingecko.com/api/v3
 
 ## Proje Notları
 
-- Proje şu an CoinGecko public API kullandığı için API anahtarı gerektirmez.
 - `package-lock.json` repoda tutulur; kurulumun tekrarlanabilir olmasını sağlar.
 - Expo cache, bağımlılıklar, ortam dosyaları ve yerel yardımcı scriptler `.gitignore` ile dışarıda bırakılır.
