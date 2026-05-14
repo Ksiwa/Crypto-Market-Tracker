@@ -1,6 +1,31 @@
 {
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
-    "strict": true
-  }
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "baseUrl": ".",
+    "paths": {
+      "@domain/*": [
+        "src/domain/*"
+      ],
+      "@data/*": [
+        "src/data/*"
+      ],
+      "@presentation/*": [
+        "src/presentation/*"
+      ],
+      "@core/*": [
+        "src/core/*"
+      ]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".expo/types/**/*.d.ts"
+  ]
 }
