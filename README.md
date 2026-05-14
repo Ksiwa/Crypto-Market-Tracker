@@ -79,16 +79,8 @@ https://api.coingecko.com/api/v3
 
 Şu an API anahtarı veya gizli ortam değişkeni gerektirmez.
 
-## GitHub'a Dahil Edilmemesi Gerekenler
+## Proje Notları
 
-Bu repo için aşağıdaki dosya ve klasörler commitlenmemelidir:
-
-- `node_modules/`
-- `.expo/`
-- `.env`, `.env.*`
-- `dist/`, `web-build/`
-- `coverage/`
-- `/ios`, `/android` generated native klasörleri
-- `BASLAT.bat` yerel Windows başlatma yardımcısı
-
-`package-lock.json` commitlenmelidir; kurulumun tekrarlanabilir olmasını sağlar.
+- Proje şu an CoinGecko public API kullandığı için API anahtarı gerektirmez.
+- `package-lock.json` repoda tutulur; kurulumun tekrarlanabilir olmasını sağlar.
+- Expo cache, bağımlılıklar, ortam dosyaları ve yerel yardımcı scriptler `.gitignore` ile dışarıda bırakılır.
